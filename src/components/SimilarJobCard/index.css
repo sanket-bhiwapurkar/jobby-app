@@ -1,0 +1,113 @@
+.job-card {
+  border-radius: 16px;
+  background-color: #272727;
+  margin-bottom: 20px;
+  font-family: 'Roboto';
+  padding: 16px 8px;
+}
+.link {
+  text-decoration: none;
+  color: #ffffff;
+}
+.job-header {
+  display: flex;
+  align-items: center;
+}
+.company-logo {
+  width: 30px;
+  margin-right: 6px;
+}
+.job-title {
+  font-size: 12px;
+  margin: 0px;
+  font-weight: 500;
+  margin-bottom: 2px;
+}
+.rating-container {
+  display: flex;
+  align-items: center;
+  height: 15px;
+}
+.star {
+  height: 12px;
+}
+.rating {
+  font-size: 12px;
+  font-weight: 500;
+}
+.job-info {
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+}
+.info-item {
+  display: flex;
+  align-items: center;
+  margin-right: 8px;
+}
+.salary {
+  margin-left: auto;
+  font-size: 11px;
+  font-weight: 400;
+}
+.job-sub-heading {
+  font-family: 'Roboto';
+  font-size: 10px;
+  font-weight: 400;
+}
+.job-description {
+  font-size: 10px;
+}
+@media all and (min-width: 768px) {
+  .job-card {
+    width: 45%;
+    margin-right: 20px;
+  }
+  .job-header {
+    margin-bottom: 20px;
+  }
+  .company-logo {
+    width: 50px;
+    margin-right: 6px;
+  }
+  .job-title {
+    font-size: 18px;
+    margin: 0px;
+    font-weight: 500;
+    margin-bottom: 6px;
+  }
+  .star {
+    height: 18px;
+  }
+  .rating {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .job-info {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+  }
+  .info-item {
+    display: flex;
+    align-items: center;
+    margin-right: 16px;
+  }
+  .salary {
+    margin-left: auto;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .job-sub-heading {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .job-description {
+    font-size: 14px;
+  }
+  .card-icons {
+    height: 20px;
+    width: 20px;
+    margin-right: 6px;
+  }
+}

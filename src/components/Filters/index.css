@@ -1,0 +1,22 @@
+.filters {
+  color: #ffffff;
+}
+.filter {
+  padding-bottom: 20px;
+}
+.filter-heading {
+  font-size: 16px;
+}
+.filter-list {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+.filter-list-item {
+  display: flex;
+  align-items: center;
+}
+.filter-label {
+  font-size: 12px;
+  margin-left: 12px;
+}

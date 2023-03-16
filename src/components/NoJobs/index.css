@@ -1,0 +1,22 @@
+.no-jobs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  text-align: center;
+}
+.no-jobs-img {
+  width: 60%;
+}
+.no-jobs-title {
+  font-size: 16px;
+}
+@media all and (min-width: 768px) {
+  .no-jobs-title {
+    font-size: 35px;
+  }
+}
+.no-jobs-msg {
+  font-size: 13px;
+}

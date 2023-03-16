@@ -1,0 +1,119 @@
+.job-details-container {
+  color: #ffffff;
+  background-color: #000000;
+  min-height: 100vh;
+  padding: 20px;
+}
+.job-details-card {
+  border-radius: 16px;
+  background-color: #272727;
+  margin-bottom: 20px;
+  font-family: 'Roboto';
+  padding: 24px 12px;
+}
+.job-details-link {
+  text-decoration: none;
+  color: #ffffff;
+}
+.job-details-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.job-details-company-logo {
+  width: 50px;
+  margin-right: 6px;
+}
+.job-details-title {
+  font-size: 18px;
+  margin: 0px;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+.job-details-rating-container {
+  display: flex;
+  align-items: center;
+  height: 15px;
+}
+.job-details-star {
+  height: 18px;
+}
+.job-details-rating {
+  font-size: 18px;
+  font-weight: 500;
+}
+.job-details-info {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+}
+.job-details-info-item {
+  display: flex;
+  align-items: center;
+  margin-right: 16px;
+}
+.job-details-salary {
+  margin-left: auto;
+  font-size: 16px;
+  font-weight: 400;
+}
+.job-details-sub-heading {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+  margin-right: auto;
+}
+.link-container {
+  display: flex;
+  align-items: center;
+}
+.job-details-link {
+  display: flex;
+  align-items: center;
+  color: #6366f1;
+}
+.job-details-description {
+  font-size: 15px;
+  line-height: 1.5;
+}
+.job-details-card-icons {
+  height: 20px;
+  width: 20px;
+  margin-right: 6px;
+}
+.skill-list {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.skill {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.skill-icon {
+  width: 35px;
+  margin: 16px 16px 16px 0px;
+}
+@media all and (min-width: 768px) {
+  .job-details-header {
+    margin-bottom: 20px;
+  }
+  .job-details-sub-heading {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .skill {
+    width: 33%;
+    display: flex;
+    align-items: center;
+  }
+  .life-at-company {
+    display: flex;
+  }
+  .life-at-company-img {
+    margin-left: 16px;
+  }
+}
